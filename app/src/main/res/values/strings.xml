@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FoddieApp3</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="contrase_a__string">Contraseña:</string>
+    <string name="email__string">Email:</string>
+    <string name="foodie_string">FOODIE</string>
+    <string name="iniciar_sesi_n_string">Iniciar Sesión</string>
+    <string name="iniciar_con_google_string">Iniciar con Google</string>
+    <string name="txtforgotpassword_string">¿Olvido su contraseña? Click aqui!</string>
+</resources>
