@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shopping_cart_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgTextNotFoundCarrito"
+        android:layout_width="347dp"
+        android:layout_height="322dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/img_textnotfound_carrito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_textnotfound_carrito"
+        tools:srcCompat="@drawable/img_textnotfound_carrito" />
+    <ImageView
+        android:id="@+id/imgNotFoundCarrito"
+        android:layout_width="238dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/img_notfound_carrito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_notfound_carrito"
+        tools:srcCompat="@drawable/img_notfound_carrito" />
+    <TextView
+        android:id="@+id/lblCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="45dp"
+        android:text="Mi Carrito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLogoCarrito"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/logo_transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_transparent"
+        tools:srcCompat="@drawable/logo_transparent" />
+
+
+</FrameLayout>
