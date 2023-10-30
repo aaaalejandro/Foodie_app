@@ -27,6 +27,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+        val btnIniciarG = findViewById<Button>(R.id.btnLoginGoogle)
+        btnIniciarG.setOnClickListener {
+            val mensaje = "FOODIE: Usted a iniciado sesión con Google!"
+            val duracion = Toast.LENGTH_SHORT
+            val toast = Toast.makeText(applicationContext, mensaje, duracion)
+            toast.show()
+        }
 
     }
 }

@@ -3,7 +3,13 @@
     <style name="Base.Theme.FoddieApp3" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
     </style>
 
     <style name="Theme.FoddieApp3" parent="Base.Theme.FoddieApp3" />
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/btnbox_color</item>
+    </style>
 </resources>

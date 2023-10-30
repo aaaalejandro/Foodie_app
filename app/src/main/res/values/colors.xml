@@ -18,4 +18,8 @@
     <color name="colorGray">#e6e6ea</color>
     <color name="colorSelected">#FF0000</color>
     <color name="colorNotSelected">#000000</color>
+    <!--  navigation bar colors  -->
+    <color name="blue">#1a9df1</color>
+    <color name="yellow">#ffd230</color>
+
 </resources>
